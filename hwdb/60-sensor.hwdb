@@ -223,6 +223,13 @@ sensor:modalias:acpi:KIOX000A*:dmi:bvnINSYDECorp.:bvrBYT70A.YNCHENG.WIN.007:*:sv
  ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, 1
 
 #########################################
+# HIGOLE
+#########################################
+# HIGOLE Gole1 plus
+sensor:modalias:acpi:SMO8500*:dmi:*svnHIGOLE:pnGOLE1Plus*
+ ACCEL_MOUNT_MATRIX=0, 1, 0; 1, 0, 0; 0, 0, 1
+
+#########################################
 # HP
 #########################################
 sensor:modalias:platform:lis3lv02d:dmi:*svn*Hewlett-Packard*:*pn*HPEliteBook8540w*
